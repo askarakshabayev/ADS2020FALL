@@ -2,6 +2,9 @@
     "files.associations": {
         "stack": "cpp",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "queue": "cpp",
+        "deque": "cpp",
+        "utility": "cpp"
     }
 }

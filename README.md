@@ -82,3 +82,12 @@ class Node {
 
 Link to problems https://informatics.mccme.ru/enrol/index.php?id=3782
 ADS2020FALL
+
+Lecture #2 Notes:
+Queue
+Simple problem on queue
+How to find distance 
+More complex problems (chess, labirint)
+How to find path on chess and labirint problems
+Bonus problem
+LinkedList
