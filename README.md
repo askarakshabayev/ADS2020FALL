@@ -91,3 +91,43 @@ More complex problems (chess, labirint)
 How to find path on chess and labirint problems
 Bonus problem
 LinkedList
+
+Lecture #3
+Linkedlist
+linear search
+Binary search
+mid = (left + right) / 2; 
+if (a[mid] < k) 
+    left = mid + 1; 
+else 
+    right = mid;
+
+Кубический корень из числа x (y^3 = x) Найти кубический корень с точностью не менее 5 знаков после точки
+r = x;
+l = 1;
+while (fabs(l-r)>eps) {
+  m=(l+r)/2;
+  if (m*m*m<x) l=m;
+  else r=m;
+}
+
+Задача про ксерокс. 
+int x = min(i, j);
+int y = max(i, j);
+
+int l = 0;
+int r = (n - 1) * y;
+while (l != r) {
+    m = (l + r) / 2;
+    int j = m / x + m / y;
+    if (j < n - 1)
+        l = m + 1;
+    else
+        r = m;
+}
+cout << r + x;
+
+Хорошие и плохие числа. 
+Дается N прямоугольников размеров a*b, найти минимальный X, в который все это поместиться
+
+minmax
