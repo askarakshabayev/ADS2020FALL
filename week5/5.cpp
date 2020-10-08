@@ -71,9 +71,9 @@ class BST {
             else if (node->right == NULL)
                 node = node->left;
             else {
-                Node *tmp = findMin(node->right);
+                Node *tmp = findMax(node->left);
                 node->data = tmp->data;
-                node->right = deleteNode(node->right, tmp->data);
+                node->left = deleteNode(node->left, tmp->data);
             }
         }
     }

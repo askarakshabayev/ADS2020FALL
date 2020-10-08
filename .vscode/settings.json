@@ -5,6 +5,8 @@
         "iostream": "cpp",
         "queue": "cpp",
         "deque": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "vector": "cpp",
+        "type_traits": "cpp"
     }
 }
