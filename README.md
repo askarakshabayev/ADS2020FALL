@@ -131,3 +131,36 @@ cout << r + x;
 Дается N прямоугольников размеров a*b, найти минимальный X, в который все это поместиться
 
 minmax
+
+week 4
+quiz
+
+week 5
+BST
+
+week 6
+1. Heap (MaxHeap, MinHeap)
+    * complete tree
+    * min head or max heap
+    * 0 - root
+    * 2i + 1 - left child
+    * 2i + 2 - right child
+    * (i - 1) / 2 - parent
+2. parent and child nodes
+3. Heap sort, priority queue, shortest path algorithms (Deijkstra, spanning tree)
+4. insert()
+5. extractMin()
+6. decreaseKey()
+7. getMin()
+8. delete()
+9. MinHeap
+    parent(int i)
+    left(int i), right(int i)
+    extractMin()
+    decreaseKey(int i, int new_val)
+    delete(int i)
+    insert(int key)
+
+week 7:
+1. quicksort
+2. mergesort
