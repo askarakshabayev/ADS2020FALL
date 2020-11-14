@@ -8,6 +8,7 @@
         "utility": "cpp",
         "vector": "cpp",
         "type_traits": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "string": "cpp"
     }
 }
