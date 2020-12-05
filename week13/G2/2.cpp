@@ -18,7 +18,7 @@ void dfs(int v) {
 int main() {
     cin >> n >> m;
     for (int i = 0; i < m; i++) {
-        cin >> x >> y;
+        cin >> x >> y; // X - Y, Y - X
         x--;
         y--;
         g[x].push_back(y);

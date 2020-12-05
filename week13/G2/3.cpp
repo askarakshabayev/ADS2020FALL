@@ -6,6 +6,7 @@ int n, m, x, y;
 vector<int> g[100];
 int color[100];
 bool ok = true;
+vector<int> result;
 
 void dfs(int v, int c) {
     color[v] = c;
@@ -18,6 +19,7 @@ void dfs(int v, int c) {
                 ok = false;
         }
     }
+    result.push_back(v);
 }
 
 int main() {
